@@ -1,0 +1,116 @@
+@charset "utf-8";
+.glyphicon { margin-right:5px; }
+.thumbnail
+{
+    margin-bottom: 20px;
+    padding: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+	height:250px;
+	
+}
+
+.item.list-group-item
+{
+    float: none;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 10px;
+	
+}
+.item.list-group-item:nth-of-type(odd):hover,.item.list-group-item:hover
+{
+    background: #428bca;
+}
+
+.item.list-group-item .list-group-image
+{
+    margin-right: 10px;
+}
+.item.list-group-item .thumbnail
+{
+    margin-bottom: 0px;
+}
+.item.list-group-item .caption
+{
+    padding: 9px 9px 0px 9px;
+}
+.item.list-group-item:nth-of-type(odd)
+{
+    background: #eeeeee;
+}
+
+.item.list-group-item:before, .item.list-group-item:after
+{
+    display: table;
+    content: " ";
+}
+
+.item.list-group-item img
+{
+    float: left;
+}
+.item.list-group-item:after
+{
+    clear: both;
+}
+.list-group-item-text
+{
+    margin: 0 0 11px;
+}
+#s{
+	border:none;
+	color:black;
+	background:url("../img/searchBox.png") no-repeat;	
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:18px;
+	height:36px;
+	margin-right:12px;
+	outline:medium none;
+	padding:0 0 0 35px;
+	text-shadow:1px 1px 0 white;
+	width:300px;
+}
+
+#submitButton{
+	background:url('../img/buttons.png') no-repeat;
+	width:83px;
+	height:36px;
+	text-indent:-9999px;
+	overflow:hidden;
+	text-transform:uppercase;
+	border:none;
+	cursor:pointer;
+}
+
+#submitButton:hover{
+	background-position:left bottom;
+}
+
+.button {
+    
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+	 float: right;
+}
+.button1 {
+    background-color: #fff;; 
+    color: black; 
+    border: 1px solid #ccc;
+}
+
+.button1:hover {
+    background-color:transparent;
+ border: 1px solid ;
+}/* CSS Document */
+
